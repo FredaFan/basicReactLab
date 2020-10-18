@@ -9,23 +9,23 @@ const name = "HDip Computer Science";
 const modules = [
   {
     name: "Agile Software",
-    noLectures: 1,
-    noPracticals: 2
+    noLectures: 2,
+    noPracticals: 3
   },
   {
     name: "Web App Development",
-    noLectures: 2,
-    noPracticals: 3
+    noLectures: 3,
+    noPracticals: 4
   },
   {
     name: "Buiness Analytics",
-    noLectures: 2,
-    noPracticals: 2
+    noLectures: 1,
+    noPracticals: 5
   },
   {
     name: "Enterprise Systems Architechure",
-    noLectures: 2,
-    noPracticals: 3
+    noLectures: 6,
+    noPracticals: 4
   }
 ];
 
