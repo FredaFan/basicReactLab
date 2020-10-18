@@ -8,22 +8,22 @@ import CourseModulesCollections from "../components/exercises/04_iteration";
 const name = "HDip Computer Science";
 const modules = [
   {
-    name: "DevOps",
+    name: "Agile Software",
     noLectures: 1,
     noPracticals: 2
   },
   {
-    name: "Enterprise Web Dev",
+    name: "Web App Development",
     noLectures: 2,
     noPracticals: 3
   },
   {
-    name: "Programming",
+    name: "Buiness Analytics",
     noLectures: 2,
     noPracticals: 2
   },
   {
-    name: "Computer Systems",
+    name: "Enterprise Systems Architechure",
     noLectures: 2,
     noPracticals: 3
   }

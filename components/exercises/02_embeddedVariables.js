@@ -14,11 +14,7 @@ const Demo = () => {
       noLectures: 1,
       noPracticals: 4
     },
-    {
-      name: "Enterprise Systems Architechure",
-      noLectures: 5,
-      noPracticals: 8
-    }
+    
   ];
   return (
     <div>
@@ -42,11 +38,7 @@ const Demo = () => {
             <td>{modules[1].noLectures}</td>
             <td>{modules[1].noPracticals}</td>
           </tr>
-          <tr>
-            <td>{modules[2].name}</td>
-            <td>{modules[2].noLectures}</td>
-            <td>{modules[2].noPracticals}</td>
-          </tr>
+          
         </tbody>
       </table>
     </div>

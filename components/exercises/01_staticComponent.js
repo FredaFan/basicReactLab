@@ -24,16 +24,7 @@ const Demo = () => {
       <td>3</td>
       <td>2</td>
     </tr>
-    <tr>
-      <td>Buiness Analytics</td>
-      <td>1</td>
-      <td>4</td>
-    </tr>
-    <tr>
-      <td>Enterprise Systems Architechure</td>
-      <td>5</td>
-      <td>8</td>
-    </tr>
+    
   </tbody >
 </table>
 </div>

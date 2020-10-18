@@ -2,10 +2,10 @@ import React from "react";
 import "../../node_modules/bootstrap/dist/css/bootstrap.css";
 
 const Demo = (props) => {
-  const header = "Software Systems Practice";
+  
   return (
     <div>
-      <h2>${props.header} </h2>
+      <h2>{`${props.course}`}</h2>
       <table className="table table-bordered">
         <thead>
           <tr>
@@ -25,15 +25,13 @@ const Demo = (props) => {
             <td>{props.modules[1].noLectures}</td>
             <td>{props.modules[1].noPracticals}</td>
           </tr>
-          <tr>
-            <td>{props.modules[2].name}</td>
-            <td>{props.modules[2].noLectures}</td>
-            <td>{props.modules[2].noPracticals}</td>
-          </tr>
+          
         </tbody>
       </table>
     </div>
   );
 };
+
+
 
 export default Demo;
